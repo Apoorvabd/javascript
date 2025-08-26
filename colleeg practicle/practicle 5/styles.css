@@ -1,0 +1,93 @@
+.l1{
+    padding:15px;
+    display:flex;
+    margin: 10px;
+}
+input{
+    padding-left:30px;
+    height: 20px;
+    width: 100%;
+    background-color:aliceblue;
+}
+.main{
+    top:4px;
+    margin-top:5px;
+    width: 550px;
+    position: relative;
+    left: 30vw;
+    background-color: rgba(193, 241, 169, 0.152);
+    height: 700px;
+     z-index: 2;
+     border: 5px solid rgba(193, 195, 107, 0.681);
+     margin-right: 12px;
+
+}
+.main2{
+    z-index: 1;
+    width: 562px;
+    position: absolute;
+    height: 710px;
+    left: 30.2vw;
+    opacity:0.8;
+    background: linear-gradient(rgba(42, 38, 38, 0.499), rgba(145, 130, 60, 0.515), rgba(190, 190, 228, 0.216));    
+    border: 5px solid rgba(114, 114, 72, 0.971);
+     
+}
+.head1{
+    
+    justify-content: center;
+    text-align:center;
+}
+label{
+    width: 130px;
+    padding-right: 20px;
+    color: rgb(17, 17, 17);
+}
+select{
+    color:brown;
+     padding-left:30px;
+    height: 20px;
+    background-color: aliceblue;
+    width: 400px;
+}
+.radio{
+    
+   display: felx;
+   width: 100%;
+   padding-left:30px ;
+   align-items:center;
+   margin: 10px;
+  
+}
+.male{
+    display: flex;
+    width: 20%;
+    margin-top: 10px;
+}
+#ab{
+    font-size: 20px;
+    width: 20px;
+    padding-bottom: 60px;
+}
+.but{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px 10px ;
+}
+#abd{
+    width: 100px;
+    text-align: left;
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+#address{
+    width: 100%;
+    background-color: aliceblue;
+
+}
+h1{
+    color:green;
+}
+h2{
+    color:green;
+}

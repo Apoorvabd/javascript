@@ -1,0 +1,95 @@
+body {
+ 
+  background: #f0f2f5;
+  margin:10px;
+  padding: 0;
+}
+
+/* Container */
+.form-container {
+
+  width: 600px;
+  margin: 10px auto;
+  background: rgba(233, 209, 183, 0.459);
+  padding: 25px;
+  border-radius: 8px;
+  display:block;
+  
+}
+
+/* Heading */
+.form-container h1 {
+  text-align: center;
+  color: #0f815b;
+  margin-bottom: 5px;
+}
+.form-container h2 {
+  text-align: center;
+  font-size: 18px;
+  color: #ad4040;
+  margin-bottom: 20px;
+}
+
+
+label {
+  width:200px;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #333;
+  float:left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+/* Radio Buttons */
+.radio-group {
+  margin-bottom: 12px;
+}
+.radio-group input {
+  margin: 0 5px 0 0;
+}
+.radio-group label {
+  margin-right: 15px;
+  font-weight: normal;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+input[type="submit"],
+input[type="reset"] {
+  width: 48%;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+input[type="submit"] {
+  background-color: #0f4c81;
+  color: white;
+}
+input[type="reset"] {
+  background-color: #ccc;
+}
+input[type="submit"]:hover {
+  background-color: #08355a;
+}
+input[type="reset"]:hover {
+  background-color: #aaa;
+}

@@ -1,0 +1,56 @@
+ body { 
+    font-family: Arial, sans-serif; margin: 20px;
+background: url(https://sdmntprwestus2.oaiusercontent.com/files/00000000-6c34-61f8-8d70-b01ecafd6899/raw?se=2025-08-22T16%3A16%3A35Z&sp=r&sv=2024-08-04&sr=b&scid=b3f83b9e-c09f-5fe7-b446-8b9e3d9ac049&skoid=864daabb-d06a-46b3-a747-d35075313a83&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-21T21%3A10%3A38Z&ske=2025-08-22T21%3A10%3A38Z&sks=b&skv=2024-08-04&sig=UJt45REb1%2BAU4jqy5sHUrNm4djH7DDMw36yM97JQPKY%3D);background: linear-gradient( 
+  #ff6a008c,   /* Vibrant Orange */
+  #c54d8772,   /* Pinkish Red */
+  #2dcae2c2,   /* Deep Purple */
+  #9aa73ba9,   /* Indigo Blue */
+  #00ff6281    /* Sky Blue */
+); }
+
+    header, footer { 
+        background-color: #f0f0f0; padding: 10px; }
+
+    nav ul { 
+        list-style-type: square; 
+    color: rgb(204, 255, 0);}
+
+    nav ul li {
+         margin: 5px 0; }
+
+    marquee { 
+        color: #333; font-weight: bold; }
+
+    .highlight {
+         color: #232ce2; font-size: 1.2em; }
+
+    form {
+         margin-top: 20px; padding: 10px; border: 1px solid #ccc; width: 300px; }
+
+        
+    form label {
+         display: block; margin: 8px 0 4px; }
+
+  .main{
+    background-color:rgba(43, 158, 75, 0.628);
+
+    
+    text-color:black;
+  }
+  #a1{
+    color: black;
+  }
+  #sec1{
+    background-color:rgba(124, 184, 141, 0.248);
+  }
+  .main{
+     background-size: cover;
+     height:1000px;
+background: linear-gradient( 
+  #ff6a00b7,   /* Vibrant Orange */
+  #ee0979,   /* Pinkish Red */
+  #2dcae2c2,   /* Deep Purple */
+  #c6e000a9,   /* Indigo Blue */
+  #00ff6281    /* Sky Blue */
+);
+  }

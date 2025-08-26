@@ -1,0 +1,21 @@
+body{
+    display :flex;
+}
+.screen1{
+    width:50vw;
+    height:100vw;
+    border:2px solid black;
+    background:rgb(174, 177, 135);
+}
+.screen2{
+    width:50vw;
+    height:100vw;
+    border:2px double black;
+    background:rgba(177, 167, 135, 0.418);
+}
+ul{
+    font-size:20px;
+}
+.a1{
+    font-size:10px;
+}

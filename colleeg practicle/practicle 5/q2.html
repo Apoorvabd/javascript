@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h1>Ramanujan College</h1>
+    <h2>Admission Form</h2>
+
+    <form action="#" method="post">
+      
+      <!-- Name -->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <!-- Phone -->
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <!-- Password -->
+      <label for="password">Create Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <!-- Course Dropdown -->
+      <label for="course">Select Course:</label>
+      <select id="course" name="course" required>
+        <option value="">-- Select --</option>
+        <option value="bsc">B.Sc</option>
+        <option value="ba">B.A</option>
+        <option value="bcom">B.Com</option>
+        <option value="bvoc">B.Voc (Software Development)</option>
+        <option value="msc">M.Sc</option>
+      </select>
+
+      <!-- Gender Radio -->
+      <label>Gender:</label>
+      <div class="radio-group">
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+      </div>
+
+      <!-- Address -->
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="4"></textarea>
+
+      <!-- Buttons -->
+      <div class="button-group">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </div>
+
+    </form>
+  </div>
+
+</body>
+</html>
